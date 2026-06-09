@@ -199,7 +199,7 @@ h2 {
 }
 
 .Es-Choco-Hokusai {
-    background-image: url('2Es-Choco-Hokusai.jpeg'); 
+    background-image: url('2Ice-Choco-Hokusai.jpeg'); 
     background-size: cover;       
     background-position: center;
 }
@@ -214,5 +214,8 @@ h2 {
     background-image: url('3Hot-Coffee-Hokusai.jpeg'); 
     background-size: cover;       
     background-position: center;
+}
+.digital-links{
+    text-align : center;
 }
 
