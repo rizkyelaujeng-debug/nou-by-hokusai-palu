@@ -193,41 +193,38 @@ h2 {
 }
 
 .Es-Kopi-Hokusai {
-    background-image: url('1Es-Kopi-Hokusai.jpeg'); 
+    background-image: url('img/1Es-Kopi-Hokusai.jpeg'); 
     background-size: cover;       
     background-position: center;
 }
 
 .Es-Choco-Hokusai {
-    background-image: url('2Ice-Choco-Hokusai.jpeg'); 
+    background-image: url('img/2Ice-Choco-Hokusai.jpeg'); 
     background-size: cover;       
     background-position: center;
 }
 
 .Kopi-Hokusai-Hot {
-    background-image: url('3Hot-Coffee-Hokusai.jpeg'); 
+    background-image: url('img/3Hot-Coffee-Hokusai.jpeg'); 
     background-size: cover;       
     background-position: center;
 }
 
 .Choco-Hokusai-Hot {
-    background-image: url('3Hot-Coffee-Hokusai.jpeg'); 
+    background-image: url('img/3Hot-Coffee-Hokusai.jpeg'); 
     background-size: cover;       
     background-position: center;
 }
 
-.backgrond{
+.backgrond {
     display: flex;
     flex-direction: column; 
     justify-content: center; 
     align-items: center; 
     text-align: center; 
-
     min-height: 60vh;
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('4tokoKopi.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('img/4tokoKopi.png');
     background-size: cover;
     background-position: center;
     color: white;
 }
-
-
