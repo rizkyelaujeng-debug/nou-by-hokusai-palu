@@ -258,3 +258,32 @@ h2 {
 .gallery-item:hover img {
     transform: scale(1.1);
 }
+.info-lokasi{
+    display:flex;
+    gap:50px;
+    align-items:flex-start;
+    position :right;
+}
+
+.gambar-peta {
+    margin-left:auto;
+}
+.gambar-peta iframe {
+    width:400px;
+    height:300px;
+}
+
+.play-button {
+    position: absolute;
+    top: 10px;    /* Jarak dari atas (bisa disesuaikan) */
+    right: 10px;  /* Jarak dari kanan (bisa disesuaikan) */
+    z-index: 10;  /* Memastikan ikon selalu berada di lapisan paling atas gambar */
+    
+    /* Styling tambahan agar terlihat lebih bagus (opsional) */
+    background-color: rgba(0, 0, 0, 0.6); /* Latar belakang hitam transparan */
+    color: #ffffff;                       /* Warna ikon play putih */
+    padding: 8px 12px;                    /* Ruang di dalam ikon */
+    border-radius: 50%;                   /* Membuat background jadi bulat */
+    font-size: 14px;                      /* Ukuran ikon */
+    line-height: 1;
+}
