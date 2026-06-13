@@ -94,7 +94,7 @@ h3 {
 #signature, #full-menu {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 2rem;          
     max-width: 900px;
     margin: 0 auto;
 }
@@ -314,4 +314,62 @@ h2 {
     text-decoration: none;
 }
 
+#signature h2, #full-menu h2 {
+    grid-column: 1 / -1;
+    margin-bottom: 1.5rem; 
+}
 
+#full-menu article:nth-of-type(1),
+#full-menu article:nth-of-type(2) {
+    margin-top: 15rem;     
+}
+
+#full-menu article:nth-of-type(3),
+#full-menu article:nth-of-type(4) {
+    margin-top: 17rem;    
+}
+
+#full-menu article {
+    position: relative;   
+    background-color: var(--cream2); 
+    padding: 1.5rem;      
+    border-radius: 12px;  
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
+}
+
+#full-menu article:nth-of-type(1)::before,
+#full-menu article:nth-of-type(2)::before {
+    content: "";
+    position: absolute;  
+    left: 50%;
+    transform: translateX(-50%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    z-index: 10;
+
+    width: 530px;         
+    height: 530px;        
+    top: -430px;          
+}
+
+#full-menu article:nth-of-type(3)::before,
+#full-menu article:nth-of-type(4)::before {
+    content: "";
+    position: absolute;   
+    left: 50%;
+    transform: translateX(-50%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    z-index: 10;
+
+    width: 370px;         
+    height: 370px;        
+    top: -360px;          
+}
+
+article.es-kopi-hokusai::before { background-image: url('daftar_menu/coffee_noBg.png'); }
+article.es-umum::before { background-image: url('daftar_menu/nonCoffee_noBg.png'); }
+article.xtra-size::before { background-image: url('daftar_menu/tea_noBg.png'); }
+article.kopi-hot::before { background-image: url('daftar_menu/hotCoffee_noBg.png'); }
